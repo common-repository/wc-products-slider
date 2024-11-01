@@ -1,0 +1,179 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.dg-container{
+    position: relative;
+}
+ .dg-container img {
+    width: 100%;
+    height: 100% !important;
+}
+
+p.wcps-cat-title {
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* End category slider styel */
+
+
+/* Start Product slider style */
+
+.owl-nav button:focus,.owl-dots button:focus {
+    outline: none !important;
+}
+.owl-nav [class*=owl-]:hover {
+    background: unset !important;
+    color:unset !important;
+    text-decoration: none;
+}
+
+a.wcps-ps-title, a.wcps-ps-info-btn, a.wcps-ps-cart-btn {
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+.item.wcps-ps-iteam {
+    width: 98%;
+    margin: 0px 0px 15px;
+}
+.wcps-ps-image {
+    height: 270px;
+    border: 1px solid #80808024;
+    box-shadow: 0px 3px 7px 0px #8080804d;
+}
+.wcps-ps-image img {
+    height: 100%;
+}
+p.wcps-ps-price {
+    margin: 20px 0px 0px;
+    font-family: sans-serif;
+}
+
+.wcps-container .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+}
+.wcps-container .owl-theme .owl-dots .owl-dot.active span {
+    background: #0073aa !important;
+}
+
+/* .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+} */
+.wcps-container a{
+    font-family: sans-serif;
+}
+a.wcps-ps-cart-btn {
+    background: #0073aa00;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #495057;
+    border: 1px solid #e2e4e7;
+    width: 80%;
+    margin: auto;
+}
+a.wcps-ps-title p {
+    margin: 0px 0px 15px;
+}
+a.wcps-ps-info-btn {
+    display: none;
+}
+
+/* Start Product slider style one */
+.wcps-product-slider-one .owl-next span, .wcps-product-slider-one .owl-prev span {
+    width: 20px !important;
+    padding: 2px 15px;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+}
+/* End Product slider style one */
+
+
+/* Start Product slider style Two */
+.wcps-product-slider-two button.owl-next {
+    position: absolute;
+    right: -40px;
+    top: 94px;
+}
+.wcps-product-slider-two button.owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 94px;
+}
+
+.wcps-product-slider-two .owl-nav button span {
+    padding: 2px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-two .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+
+/* End Product slider style Two */
+
+
+/* Start Product slider style Three */
+.wcps-product-slider-three .owl-nav {
+    position: absolute;
+    top: -54px;
+    right: 0;
+}
+.wcps-product-slider-three .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-three .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+/* End Product slider style Three */
+
+/* Start Product slider style Four */
+.wcps-product-slider-four .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+/* End Product slider style Four */
+
+/* Start Product slider style Five */
+.wcps-product-slider-five .owl-nav {
+    position: absolute;
+    top: -54px;
+    left: 0;
+}
+.wcps-product-slider-five .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-five .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+/* End Product slider style Three */
+
+.wcps-ps-image img {
+    height: 100% !important;
+} 
+
+
+a.wcps-ps-title{
+    display: block !important;
+    text-align: center !important;
+}

@@ -1,0 +1,377 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ body.wp-admin {
+  
+    background: #f1f1f1 !important;
+}
+
+h1.wcps-h1{
+    font-size: 42px !important;
+}
+h2.wcps-h2{
+    font-size: 36px !important;
+}
+h3.wcps-h3{
+    font-size: 28px !important;
+}
+h4.wcps-h4{
+    font-size: 24px !important;
+}
+h5.wcps-h5{
+    font-size: 20px !important;
+}
+h6.wcps-h6{
+    font-size: 18px !important;
+}
+p.wcps-p{
+    font-size: 14px !important;
+}
+
+/* Start Product slider style */
+
+.owl-nav button:focus,.owl-dots button:focus {
+    outline: none !important;
+}
+.owl-nav [class*=owl-]:hover {
+    background: unset !important;
+    color:unset !important;
+    text-decoration: none;
+}
+
+a.wcps-ps-title, a.wcps-ps-info-btn, a.wcps-ps-cart-btn {
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    text-align: center;
+}
+.item.wcps-ps-iteam {
+    width: 98%;
+    margin: 0px 0px 15px;
+}
+.wcps-ps-image {
+    height: 150px;
+    border: 1px solid #80808024;
+    box-shadow: 0px 3px 7px 0px #8080804d;
+}
+.wcps-ps-image img {
+    height: 100%;
+}
+p.wcps-ps-price {
+    margin: 20px 0px 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.wcps-container .owl-theme .owl-dots .owl-dot span {
+    width: 15px !important;
+    height: 15px;
+}
+.wcps-container .owl-theme .owl-dots .owl-dot.active span {
+    background: #0073aa !important;
+}
+.wcps-container a{
+    font-family: sans-serif;
+}
+a.wcps-ps-cart-btn {
+    background: #0073aa00;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #495057;
+    border: 1px solid #e2e4e7;
+    width: 80%;
+    margin: auto;
+}
+a.wcps-ps-title p {
+    margin: 0px 0px 15px;
+}
+a.wcps-ps-info-btn {
+    display: none;
+}
+
+/* Start Product slider style one */
+.wcps-product-slider-one .owl-next span, .wcps-product-slider-one .owl-prev span {
+    width: 20px !important;
+    padding: 2px 15px;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+}
+/* End Product slider style one */
+
+
+/* Start Product slider style Two */
+.wcps-product-slider-two button.owl-next {
+    position: absolute;
+    right: -40px;
+    top: 94px;
+}
+.wcps-product-slider-two button.owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 94px;
+}
+
+.wcps-product-slider-two .owl-nav button span {
+    padding: 2px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-two .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+
+/* End Product slider style Two */
+
+
+/* Start Product slider style Three */
+.wcps-product-slider-three .owl-nav {
+    position: absolute;
+    top: -47px;
+    right: -21px;
+}
+.wcps-product-slider-three .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-three .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+/* End Product slider style Three */
+
+/* Start Product slider style Four */
+.wcps-product-slider-four .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+/* End Product slider style Four */
+
+/* Start Product slider style Five */
+.wcps-product-slider-five .owl-nav {
+    position: absolute;
+    top: -47px;
+    left: -21px;
+}
+.wcps-product-slider-five .owl-nav button span {
+    padding: 0px 12px;
+    color: #212529;
+    border-radius: 0px;
+    border: 1px solid #80808042;
+}
+.wcps-product-slider-five .owl-nav button span:hover {
+    color: #fff;
+    background: #929eaa;
+    transition: .5s;
+}
+/* End Product slider style Five */
+
+/* ===================End Product Slider style ====================*/
+
+.wcps-setting-page .card{
+     border-radius: 0px !important;
+     max-width: 100% !important;
+    padding: 0px !important;
+}
+ .wcps-demo-img {
+    width: 100%;
+    height: auto;
+}
+.wcps-demo-img img{
+    width: 100%;
+    height: auto;
+}
+.wcps-demo-card-body p.card-text {
+    font-size: 16px;
+}
+.wcps-demo-card-body p.card-text span {
+    background: #f1f1f1;
+    padding: 8px 10px;
+    color: #111;
+    font-size: 16px;
+}
+.wcps-demo-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #80808078;
+    height: 220px;
+}
+
+.wcps-pt-panel, .wcps-pp-panel, .wcps-acb-panel, .wcps-vmb-panel{
+    padding: 16px;
+    box-shadow: 1px 4px 8px 0px grey;
+    max-width: 93% !important;
+    margin: 10px 17px;
+}
+
+p.submit {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 16px;
+}
+
+.toggle.btn.btn-success,.toggle.btn.btn-danger.off {
+    padding: 0px;
+    height: 10px !important;
+    border-radius: 30px;
+}
+.toggle-on, .toggle-off{
+    position: absolute;
+    top: -4px;
+}
+.wcps-p-title {
+    font-size: 15px;
+}
+.wp-picker-container{
+    
+    display: inline-block;
+    position: absolute;
+}
+.wp-picker-active {
+    display: inline-block;
+    position: absolute;
+    z-index: 1000 !important;
+}
+.wcps-setting-page input.form-control {
+    height: 30px !important;
+}
+.wcps-setting-page .toggle-handle {
+    background: #fff;
+}
+.wcps-nav-bar {
+    position: fixed;
+    width: 12% !important;
+}
+.wcps-nav-bar , .wcps-setting-body {
+    background: #f8f9fa;
+    box-shadow: 0px 3px 6px 0px #e9ecef;
+    padding: 30px 0px 30px 0px;
+}
+.wcps-setting-body {
+    padding: 30px 30px 30px 30px;
+}
+.wcps-setting-body input[type='radio']{
+    width: 20px !important;
+    height: 20px;
+    border-radius: 50%;
+    padding: 2px !important;
+}
+.wcps-nav-bar li.nav-item {
+    padding: 5px 0px;
+    margin: 5px;
+}
+.wcps-nav-active {
+    background: #007bff;
+}
+.wcps-nav-active a{
+    color: #fff;
+}
+.wcps-nav-bar .nav-item:hover {
+    background: #007bff;
+}
+.wcps-nav-bar .nav-item:hover a {
+    color: #fff;
+}
+.wcps-nav-bar .nav-item a:focus {
+    color: unset;
+    outline: none;
+    box-shadow: none;
+}
+.wcps-save-btn {
+    position: absolute;
+    top: -27px;
+    left: 37%;
+}
+.wcps-copy-text {
+    margin: 0px 0px 20px;
+    position: relative;
+}
+.wcps-copy-text input, input[type=text]:focus{
+    border: none;
+    background: #f8f9fa;
+    color: #343a40;
+    padding: 0px 16px;
+    box-shadow: 0px 4px 6px 0px #80808096;
+}
+
+span#copy i {
+    position: absolute;
+    right: 21%;
+    top: 0px;
+    color: #f8f9fa;
+    cursor: pointer;
+    background: #999;
+    padding: 8px;
+}
+span.copied {
+    margin-left: 30px;
+}
+.wcps-slider-show-area {
+    box-shadow: 0px 3px 9px 0px #929eaa;
+    padding: 5px 0px;
+    min-height: 230px;
+}
+.wcps-submit-btn input.button, .wcps-submit-btn input.button:focus {
+    background: #007bff;
+    border: navajowhite;
+    border-radius: 0px;
+    padding: 7px 15px;
+    outline: none;
+    box-shadow: none;
+}
+.wcps-submit-btn p.submit {
+    margin-left: 0px;
+}
+.wcps-slider-feature ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.wcps-slider-feature ul li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+input.wcps-color{
+    opacity: 0 !important;
+}
+.wcps-setting-body span.toggle-handle.btn.btn-default {
+    background: #fff !important;
+}
+.wcps-setting-body input.form-control {
+    height: 35px !important;
+}
+.wcps-ps-image img {
+    height: 100% !important;
+} 
+
+.wcps-setting-body .wp-picker-container.wp-picker-active .wp-picker-holder {
+    border-radius: 0;
+    border-color: #ddd;
+    margin-top: 6px;
+    position: relative;
+   right: 97px !important;
+    top: -10px;
+}
+.wcps-setting-body .wp-picker-container.wp-picker-active span.wp-picker-input-wrap {
+    position: relative;
+    top: 0;
+    right: 58px;
+}
+
+a.wcps-ps-title{
+    
+    text-align: center !important;
+}
